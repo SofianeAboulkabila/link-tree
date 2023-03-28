@@ -1,0 +1,105 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: rgb(255, 255, 255);
+}
+
+.box {
+  height: 100vh;
+  object-fit: center/cover;
+}
+
+.sec1,
+.sec2 {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: fixed;
+  padding: 150px;
+  border: 5px solid rgb(78, 122, 64);
+}
+h1 {
+  position: absolute;
+}
+
+.b1 {
+  background-color: #000;
+  clip-path: polygon(0px 0px, 0px 100%, 0% 66%, 145% 0px, 200% 100%, 0 45%);
+}
+.sec1,
+.h1-1 {
+  background: rgb(255, 255, 255);
+
+  font-size: 1.5rem;
+}
+
+.b2 {
+  background-color: #000000;
+  clip-path: polygon(0px 0px, 0px 100%, 0% 66%, 145% 0px, 200% 100%, 0 45%);
+}
+
+.sec2,
+.h1-2 {
+  background: rgb(0, 0, 0);
+  color: white;
+  font-size: 1.5rem;
+}
+
+/* VERSION PROPRE */
+/* 
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: rgb(255, 255, 255);
+}
+
+.box {
+  height: 100vh;
+  object-fit: center/cover;
+}
+
+.sec1,
+.sec2 {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: fixed;
+  padding: 150px;
+  border: 5px solid rgb(78, 122, 64);
+}
+h1 {
+  position: absolute;
+}
+
+.b1 {
+  background-color: #000;
+
+}
+.sec1,
+.h1-1 {
+  background: rgb(255, 255, 255);
+
+  font-size: 1.5rem;
+}
+
+.b2 {
+  background-color: #000000;
+  clip-path: polygon(30% 0%, -108% 147%, 0% 75%,0% 0%, 150% 0%, 215% 248%, 0% 38%, 0% 0%);
+
+}
+
+.sec2,
+.h1-2 {
+  background: rgb(0, 0, 0);
+  color: white;
+  font-size: 1.5rem;
+}
+
+
+ */
